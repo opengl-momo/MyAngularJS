@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js模块化测试</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="./script/require.js"></script>
+	<script type="text/javascript">
+		function test(){
+			require('./script/modules/a.js');
+			require('./script/modules/c.js');
+		}
+
+		start(test.toString());
+	</script>
+</head>
+<body>
+	module test.....
+</body>
+</html>
